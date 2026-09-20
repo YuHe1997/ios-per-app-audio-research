@@ -1,0 +1,5 @@
+condition,buffers,tone_440_dbfs,tone_997_dbfs,rms_dbfs,peak_dbfs,result
+youtube_440_only,7736,-16.323,-82.895,-16.322,-13.245,440_ONLY
+probe_997_only,7197,-89.253,-21.010,-21.010,-18.000,997_ONLY
+both,8281,-16.329,-21.010,-15.055,-9.296,BOTH_IN_ONE_STREAM
+

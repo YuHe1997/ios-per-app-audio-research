@@ -1,0 +1,9 @@
+route,level1_attribution,level2_per_app_pcm,level3_gain,result
+ScreenCaptureKit_application_filters,NO,NO,NO,unavailable_on_iOS
+CoreAudio_process_taps,NO,NO,NO,absent_from_iPhoneOS_public_module
+AudioUnit_AVAudioEngine,NO,NO,NO,current_process_only
+AVAudioSession,NO,NO,NO,global_boolean_route_current_session_only
+CMSampleBuffer_metadata,NO,NO,NO,no_source_metadata
+ReplayKit,NO,NO,NO,no_longer_supported_handler_on_iOS27
+AUv3_extensions,NO,NO,NO,host_loaded_not_system_wide
+

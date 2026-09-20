@@ -1,0 +1,6 @@
+question,result
+capture_changes_with_system_volume,no_material_change_in_valid_comparison
+self_playback_reenters_capture,yes
+current_process_exclusion_effective,no_in_tested_route
+digital_timing,stable
+

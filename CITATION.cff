@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite this repository and release."
+title: "iOS Per-App Audio Research"
+type: software
+version: "0.1.0-research"
+date-released: 2026-09-20
+license: MPL-2.0
+abstract: "Empirical iOS 27 research on system audio capture, simultaneous multi-app PCM, and the absence of public per-app attribution, isolation, and gain control."
+

@@ -1,0 +1,3 @@
+capability,result,evidence
+system_mixed_pcm,YES,48kHz stereo buffers on physical iOS 27 device
+

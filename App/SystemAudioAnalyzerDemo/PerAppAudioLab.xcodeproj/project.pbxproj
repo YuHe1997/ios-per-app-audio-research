@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000021 /* PerAppAudioLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000031 /* PerAppAudioLabApp.swift */; };
+		A00000000000000000000022 /* AudioCaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000032 /* AudioCaptureManager.swift */; };
+		A00000000000000000000023 /* AudioMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000033 /* AudioMetrics.swift */; };
+		A00000000000000000000024 /* CaptureLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000034 /* CaptureLogger.swift */; };
+		A00000000000000000000025 /* DebugDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000035 /* DebugDashboard.swift */; };
+		B00000000000000000000021 /* AudioProbeSourceApp.swift in AudioProbeSource Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000031 /* AudioProbeSourceApp.swift */; };
+		B00000000000000000000022 /* ToneEngine.swift in AudioProbeSource Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000032 /* ToneEngine.swift */; };
+		B00000000000000000000023 /* AudioProbeSourceApp.swift in AudioProbeSourceB Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000031 /* AudioProbeSourceApp.swift */; };
+		B00000000000000000000024 /* ToneEngine.swift in AudioProbeSourceB Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000032 /* ToneEngine.swift */; };
+		B00000000000000000000025 /* Phase2CDualSourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000033 /* Phase2CDualSourceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000030 /* PerAppAudioLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerAppAudioLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00000000000000000000031 /* PerAppAudioLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerAppAudioLabApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000032 /* AudioCaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureManager.swift; sourceTree = "<group>"; };
+		A00000000000000000000033 /* AudioMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioMetrics.swift; sourceTree = "<group>"; };
+		A00000000000000000000034 /* CaptureLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureLogger.swift; sourceTree = "<group>"; };
+		A00000000000000000000035 /* DebugDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDashboard.swift; sourceTree = "<group>"; };
+		A00000000000000000000036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00000000000000000000030 /* AudioProbeSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioProbeSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000031 /* AudioProbeSourceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioProbeSource/AudioProbeSourceApp.swift; sourceTree = SOURCE_ROOT; };
+		B00000000000000000000032 /* ToneEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioProbeSource/ToneEngine.swift; sourceTree = SOURCE_ROOT; };
+		B00000000000000000000033 /* Phase2CDualSourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerAppAudioLabUITests/Phase2CDualSourceUITests.swift; sourceTree = SOURCE_ROOT; };
+		B00000000000000000000034 /* AudioProbeSource Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AudioProbeSource/Info.plist; sourceTree = SOURCE_ROOT; };
+		B00000000000000000000035 /* PerAppAudioLabUITests Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PerAppAudioLabUITests/Info.plist; sourceTree = SOURCE_ROOT; };
+		B00000000000000000000036 /* AudioProbeSourceB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioProbeSourceB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000037 /* PerAppAudioLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerAppAudioLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000040 /* AudioProbeSource Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000043 /* AudioProbeSourceB Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000046 /* PerAppAudioLabUITests Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000010 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000011 /* App */,
+				A00000000000000000000012 /* Capture */,
+				A00000000000000000000013 /* UI */,
+				B00000000000000000000010 /* AudioProbeSource */,
+				B00000000000000000000011 /* PerAppAudioLabUITests */,
+				A00000000000000000000036 /* Info.plist */,
+				A00000000000000000000014 /* Products */,
+			);
+			path = PerAppAudioLab;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000011 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000031 /* PerAppAudioLabApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000012 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000032 /* AudioCaptureManager.swift */,
+				A00000000000000000000033 /* AudioMetrics.swift */,
+				A00000000000000000000034 /* CaptureLogger.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000013 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000035 /* DebugDashboard.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000030 /* PerAppAudioLab.app */,
+				B00000000000000000000030 /* AudioProbeSource.app */,
+				B00000000000000000000036 /* AudioProbeSourceB.app */,
+				B00000000000000000000037 /* PerAppAudioLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000010 /* AudioProbeSource */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000031 /* AudioProbeSourceApp.swift */,
+				B00000000000000000000032 /* ToneEngine.swift */,
+				B00000000000000000000034 /* AudioProbeSource Info.plist */,
+			);
+			path = AudioProbeSource;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000011 /* PerAppAudioLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000033 /* Phase2CDualSourceUITests.swift */,
+				B00000000000000000000035 /* PerAppAudioLabUITests Info.plist */,
+			);
+			path = PerAppAudioLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000002 /* PerAppAudioLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000052 /* Build configuration list for PBXNativeTarget "PerAppAudioLab" */;
+			buildPhases = (
+				A00000000000000000000041 /* Sources */,
+				A00000000000000000000040 /* Frameworks */,
+				A00000000000000000000042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerAppAudioLab;
+			productName = PerAppAudioLab;
+			productReference = A00000000000000000000030 /* PerAppAudioLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00000000000000000000002 /* AudioProbeSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00000000000000000000051 /* Build configuration list for PBXNativeTarget "AudioProbeSource" */;
+			buildPhases = (
+				B00000000000000000000041 /* Sources */,
+				B00000000000000000000040 /* Frameworks */,
+				B00000000000000000000042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioProbeSource;
+			productName = AudioProbeSource;
+			productReference = B00000000000000000000030 /* AudioProbeSource.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00000000000000000000003 /* AudioProbeSourceB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00000000000000000000052 /* Build configuration list for PBXNativeTarget "AudioProbeSourceB" */;
+			buildPhases = (
+				B00000000000000000000044 /* Sources */,
+				B00000000000000000000043 /* Frameworks */,
+				B00000000000000000000045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioProbeSourceB;
+			productName = AudioProbeSourceB;
+			productReference = B00000000000000000000036 /* AudioProbeSourceB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B00000000000000000000004 /* PerAppAudioLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00000000000000000000053 /* Build configuration list for PBXNativeTarget "PerAppAudioLabUITests" */;
+			buildPhases = (
+				B00000000000000000000047 /* Sources */,
+				B00000000000000000000046 /* Frameworks */,
+				B00000000000000000000048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B00000000000000000000070 /* PBXTargetDependency */,
+			);
+			name = PerAppAudioLabUITests;
+			productName = PerAppAudioLabUITests;
+			productReference = B00000000000000000000037 /* PerAppAudioLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					A00000000000000000000002 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					B00000000000000000000002 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					B00000000000000000000003 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					B00000000000000000000004 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = A00000000000000000000002;
+					};
+				};
+			};
+			buildConfigurationList = A00000000000000000000051 /* Build configuration list for PBXProject "PerAppAudioLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000010;
+			productRefGroup = A00000000000000000000014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000002 /* PerAppAudioLab */,
+				B00000000000000000000002 /* AudioProbeSource */,
+				B00000000000000000000003 /* AudioProbeSourceB */,
+				B00000000000000000000004 /* PerAppAudioLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00000000000000000000042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000021 /* PerAppAudioLabApp.swift in Sources */,
+				A00000000000000000000022 /* AudioCaptureManager.swift in Sources */,
+				A00000000000000000000023 /* AudioMetrics.swift in Sources */,
+				A00000000000000000000024 /* CaptureLogger.swift in Sources */,
+				A00000000000000000000025 /* DebugDashboard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000041 /* AudioProbeSource Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000021 /* AudioProbeSourceApp.swift in AudioProbeSource Sources */,
+				B00000000000000000000022 /* ToneEngine.swift in AudioProbeSource Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000044 /* AudioProbeSourceB Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000023 /* AudioProbeSourceApp.swift in AudioProbeSourceB Sources */,
+				B00000000000000000000024 /* ToneEngine.swift in AudioProbeSourceB Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000047 /* PerAppAudioLabUITests Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00000000000000000000025 /* Phase2CDualSourceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section additions */
+		B00000000000000000000042 /* AudioProbeSource Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000045 /* AudioProbeSourceB Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B00000000000000000000048 /* PerAppAudioLabUITests Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section additions */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PerAppAudioLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PerAppAudioLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PerAppAudioLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PerAppAudioLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A00000000000000000000062 /* Project Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000063 /* Project Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		B00000000000000000000060 /* AudioProbeSource Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AudioProbeSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AudioProbeSource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "TONE_997";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B00000000000000000000061 /* AudioProbeSource Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AudioProbeSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AudioProbeSource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "TONE_997";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B00000000000000000000062 /* AudioProbeSourceB Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AudioProbeSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AudioProbeSourceB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "TONE_997";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B00000000000000000000063 /* AudioProbeSourceB Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AudioProbeSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AudioProbeSourceB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "TONE_997";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B00000000000000000000064 /* PerAppAudioLabUITests Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PerAppAudioLabUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PerAppAudioLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = PerAppAudioLab;
+			};
+			name = Debug;
+		};
+		B00000000000000000000065 /* PerAppAudioLabUITests Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PerAppAudioLabUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PerAppAudioLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = PerAppAudioLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000051 /* Build configuration list for PBXProject "PerAppAudioLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000062 /* Project Debug */,
+				A00000000000000000000063 /* Project Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000052 /* Build configuration list for PBXNativeTarget "PerAppAudioLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000060 /* Debug */,
+				A00000000000000000000061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00000000000000000000051 /* Build configuration list for PBXNativeTarget "AudioProbeSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000060 /* AudioProbeSource Debug */,
+				B00000000000000000000061 /* AudioProbeSource Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00000000000000000000052 /* Build configuration list for PBXNativeTarget "AudioProbeSourceB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000062 /* AudioProbeSourceB Debug */,
+				B00000000000000000000063 /* AudioProbeSourceB Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00000000000000000000053 /* Build configuration list for PBXNativeTarget "PerAppAudioLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00000000000000000000064 /* PerAppAudioLabUITests Debug */,
+				B00000000000000000000065 /* PerAppAudioLabUITests Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin PBXContainerItemProxy section */
+		B00000000000000000000071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00000000000000000000002;
+			remoteInfo = PerAppAudioLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		B00000000000000000000070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00000000000000000000002 /* PerAppAudioLab */;
+			targetProxy = B00000000000000000000071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
